@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:padding="16dp"
+    android:layout_marginTop="56dp">
+
+    <CheckBox
+        android:id="@+id/RPM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RPM"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Temp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/throttle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Throttle"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        android:background="#424242" />
+</LinearLayout>
